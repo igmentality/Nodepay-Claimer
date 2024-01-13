@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bankio - HTML Template</title>
+    <title>Cayman Trust Services</title>
 
     <link rel="shortcut icon" href="/assets/images/fav.png" type="image/x-icon">
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
@@ -38,7 +38,7 @@
                 <div class="row d-flex header-area">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <a class="navbar-brand" href="index.html">
-                            <img src="/assets/images/logo.png" class="logo" alt="logo">
+                            <img src="/assets/images/logocts.jpeg" alt="logo" width="150" height="32">
                         </a>
                         <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbar-content">
@@ -47,71 +47,16 @@
                         <div class="collapse navbar-collapse justify-content-end" id="navbar-content">
                             <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" aria-current="page" href="about.html">About Us</a>
                                 </li>
-                                <li class="nav-item dropdown main-navbar">
-                                    <a class="nav-link dropdown-toggle" href="javascript:void(0)"
-                                        data-bs-toggle="dropdown" data-bs-auto-close="outside">Product</a>
-                                    <ul class="dropdown-menu main-menu shadow">
-                                        <li class="dropend sub-navbar">
-                                            <a href="javascript:void(0)" class="dropdown-item dropdown-toggle"
-                                                data-bs-toggle="dropdown" data-bs-auto-close="outside">Account</a>
-                                            <ul class="dropdown-menu sub-menu shadow">
-                                                <li><a class="nav-link" href="account.html">Account</a></li>
-                                                <li><a class="nav-link" href="account-details.html">Account Details</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li><a class="nav-link" href="product.html">Product</a></li>
-                                        <li class="dropend sub-navbar">
-                                            <a href="javascript:void(0)" class="dropdown-item dropdown-toggle"
-                                                data-bs-toggle="dropdown" data-bs-auto-close="outside">Loan</a>
-                                            <ul class="dropdown-menu sub-menu shadow">
-                                                <li><a class="nav-link" href="business-loan.html">Business Loans</a>
-                                                </li>
-                                                <li><a class="nav-link" href="educations-loan.html">Educations Loans</a>
-                                                </li>
-                                                <li><a class="nav-link" href="home-loan.html">Home Loans</a></li>
-                                                <li><a class="nav-link" href="car-loan.html">Car Loans</a></li>
-                                                <li><a class="nav-link" href="personal-loan.html">Personal Loans</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li><a class="nav-link" href="card.html">Card</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown main-navbar">
-                                    <a class="nav-link dropdown-toggle" href="javascript:void(0)"
-                                        data-bs-toggle="dropdown" data-bs-auto-close="outside">Pages</a>
-                                    <ul class="dropdown-menu main-menu shadow">
-                                        <li><a class="nav-link" href="affiliate.html">Affiliate</a></li>
-                                        <li class="dropend sub-navbar">
-                                            <a href="javascript:void(0)" class="dropdown-item dropdown-toggle"
-                                                data-bs-toggle="dropdown" data-bs-auto-close="outside">Blog</a>
-                                            <ul class="dropdown-menu sub-menu shadow">
-                                                <li><a class="nav-link" href="blog-list.html">Blog List</a></li>
-                                                <li><a class="nav-link" href="blog-grid.html">Blog Grid</a></li>
-                                                <li><a class="nav-link" href="blog-single.html">Blog Single</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a class="nav-link" href="remittance.html">Remittance</a></li>
-                                        <li><a class="nav-link" href="career-single.html">Career Single</a></li>
-                                        <li><a class="nav-link" href="faqs.html">Faqs</a></li>
-                                        <li><a class="nav-link" href="login.html">Login</a></li>
-                                        <li><a class="nav-link" href="password-set.html">Password Set</a></li>
-                                        <li><a class="nav-link" href="varify-number.html">Varify Number</a></li>
-                                        <li><a class="nav-link" href="otp.html">OTP</a></li>
-
-                                        <li><a class="nav-link" href="terms-conditions.html">Terms Conditions</a></li>
-                                        <li><a class="nav-link" href="privacy-policy.html">Privacy Policy</a></li>
-
-                                    </ul>
-                                </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="contact.html">Contact Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="{{route('login')}}">Login</a>
                                 </li>
                             </ul>
                             <div class="right-area header-action d-flex align-items-center">
@@ -134,7 +79,8 @@
                 <div class="col-xl-3 col-lg-3 col-md-4 col-6">
                     <div class="footer-box">
                         <a href="index.html" class="logo">
-                            <img src="/assets/images/logo.png" alt="logo">
+                            <img src="/assets/images/logocts.jpeg" alt="logo" width="150" height="32">
+
                         </a>
                         <p>A modern, technology-first bank built for you and your growing business.</p>
                         <div class="social-link d-flex align-items-center">

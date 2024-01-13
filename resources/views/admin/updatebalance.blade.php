@@ -65,11 +65,7 @@
 
 
 
-    <!-- START: Footer-->
-    <footer class="site-footer">
-        2020 © PICK
-    </footer>
-    <!-- END: Footer-->
+    
 
 
     <!-- START: Back to top-->
